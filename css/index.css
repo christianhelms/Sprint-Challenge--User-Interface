@@ -71,12 +71,34 @@ p {
     margin: 0 auto;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+.header-content a {
+    padding: 30px;
+    color: grey;
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content-img {
+    padding-bottom: 20px;
 }
 
 .top-content .text-container {
